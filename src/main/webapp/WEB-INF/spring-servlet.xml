@@ -88,9 +88,6 @@
 	</bean>
 
 
-    <bean id="customerValidator" class="com.objectway.stage.controller.validators.CustomerCommandValidator">
-
-    </bean>
 
 
 

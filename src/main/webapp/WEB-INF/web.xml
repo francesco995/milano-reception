@@ -3,7 +3,7 @@
 		 http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
 	version="3.1">
 
-	<display-name>STAGE WEBAPP</display-name>
+	<display-name>Milano Reception</display-name>
 
 	<servlet>
 		<servlet-name>spring</servlet-name>

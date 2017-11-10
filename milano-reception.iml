@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
@@ -19,9 +19,18 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-web:unknown" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:unknown" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:unknown" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.tiles:tiles-core:${apachetiles.version}" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.tiles:tiles-api:${apachetiles.version}" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.tiles:tiles-servlet:${apachetiles.version}" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.tiles:tiles-jsp:${apachetiles.version}" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tiles:tiles-core:3.0.8" level="project" />
+    <orderEntry type="library" name="Maven: commons-digester:commons-digester:2.0" level="project" />
+    <orderEntry type="library" name="Maven: commons-beanutils:commons-beanutils:1.8.0" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:jcl-over-slf4j:1.7.6" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tiles:tiles-api:3.0.8" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tiles:tiles-request-api:1.0.7" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tiles:tiles-servlet:3.0.8" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tiles:tiles-request-servlet:1.0.7" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tiles:tiles-jsp:3.0.8" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tiles:tiles-template:3.0.8" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tiles:tiles-autotag-core-runtime:1.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tiles:tiles-request-jsp:1.0.7" level="project" />
   </component>
 </module>
