@@ -7,8 +7,8 @@ public class User implements Serializable {
 
     private Integer idRef;
     private String name;
-    private String cognome;
-    private String ruolo;
+    private String lastName;
+    private String role;
     private String userName;
     private String password;
 
@@ -21,13 +21,13 @@ public class User implements Serializable {
 
     public void setName(String name) { this.name = name;}
 
-    public String getCognome() { return cognome;}
+    public String getLastName() { return lastName;}
 
-    public void setCognome(String cognome) { this.cognome = cognome;}
+    public void setLastName(String lastName) { this.lastName = lastName;}
 
-    public String getRuolo() { return ruolo;}
+    public String getRole() { return role;}
 
-    public void setRuolo(String ruolo) { this.ruolo = ruolo;}
+    public void setRole(String role) { this.role = role;}
 
     public String getUserName() { return userName;}
 
