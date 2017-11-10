@@ -1,7 +1,7 @@
 package com.objectway.stage.repo.exceptions;
 
-public class DuplicateItemException extends Exception {
-    public DuplicateItemException(String message) {
+public class ItemNotFoundException extends Exception {
+    public ItemNotFoundException(String message) {
         super(message);
     }
 }
