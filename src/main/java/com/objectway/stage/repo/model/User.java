@@ -9,8 +9,8 @@ public class User implements Serializable {
     private String name;
     private String cognome;
     private String ruolo;
-    private List<String> userName;
-    private List<String> password;
+    private String userName;
+    private String password;
 
 
     public Integer getIdRef() { return idRef;}
@@ -29,11 +29,11 @@ public class User implements Serializable {
 
     public void setRuolo(String ruolo) { this.ruolo = ruolo;}
 
-    public List<String> getUserName() { return userName;}
+    public String getUserName() { return userName;}
 
-    public void setUserName(List<String> userName) { this.userName = userName;}
+    public void setUserName(String userName) { this.userName = userName;}
 
-    public List<String> getPassword() { return password;}
+    public String getPassword() { return password;}
 
-    public void setPassword(List<String> password) { this.password = password;}
+    public void setPassword(String password) { this.password = password;}
 }
