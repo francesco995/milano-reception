@@ -18,6 +18,10 @@ public class ItemsControllerImpl implements ItemsController {
         return null;
     }
 
+    public Item getItemById(String id) {
+        return null;
+    }
+
     public void addItem(Item item) {
 
     }

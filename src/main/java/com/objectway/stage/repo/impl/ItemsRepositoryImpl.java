@@ -5,6 +5,7 @@ import com.objectway.stage.repo.exceptions.DuplicateItemException;
 import com.objectway.stage.repo.exceptions.ItemNotFoundException;
 import com.objectway.stage.repo.model.Item;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
@@ -13,7 +14,7 @@ public class ItemsRepositoryImpl implements ItemsRepository {
     private HashMap<String, Item> repository;
 
     public List<Item> getAllItems() {
-        List<Item> list = new List<Item>();
+        List<Item> list = new ArrayList<Item>();
         for (String id : repository.keySet()) {
             list.add(repository.get(id));
         }

@@ -10,6 +10,8 @@ public interface ItemsController {
 
     public Item getItemByName(String name);
 
+    public Item getItemById(String id);
+
     public void addItem(Item item);
 
     public boolean removeItem(String id);

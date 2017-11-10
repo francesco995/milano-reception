@@ -19,7 +19,8 @@ public class ItemView {
     @RequestMapping(value="/item")
     public String viewItem(@RequestParam("id") String id) {
 
-        itemsController.getItemById();
+        itemsController.getItemById(id);
+        return "";
         //TODO:save in session and return view
     }
 
