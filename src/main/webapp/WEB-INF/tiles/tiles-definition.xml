@@ -12,8 +12,10 @@
 	</definition>
 	
 	<definition name="home" extends="main.layout" />
+
+	<definition name="index" extends="main.layout" />
 	
-	<definition name="customersTiles" extends="main.layout">
+	<definition name="itemsTiles" extends="main.layout">
 		<put-attribute name="container-top" value="/WEB-INF/tiles/customersDetails.jsp" />
 		<put-attribute name="container-bottom" value="/WEB-INF/tiles/gotoAddCustomer.jsp" />
 	</definition>
