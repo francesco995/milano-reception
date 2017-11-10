@@ -1,5 +1,6 @@
 package com.objectway.stage.webapp;
 
+import com.objectway.stage.controller.ItemsController;
 import com.objectway.stage.repo.model.Item;
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
@@ -13,7 +14,7 @@ import java.util.List;
 
 
 @Controller
-public class ItemsController implements ApplicationContextAware {
+public class ItemsView implements ApplicationContextAware {
 
 	private ApplicationContext applicationContext;
 
@@ -30,7 +31,7 @@ public class ItemsController implements ApplicationContextAware {
 
 	@ModelAttribute(SESSION_CUSTOMERS_PARAM)
 	public List<Item> items() {
-		return this.applicationContext.getBean(ItemsController.class).items();
+		return this.applicationContext.getBean(ItemsController.class).getAllItems();
 	}
 
 	@Override
