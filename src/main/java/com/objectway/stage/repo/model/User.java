@@ -5,10 +5,13 @@ import java.util.List;
 
 public class User implements Serializable {
 
+    public enum ROLES {
+        ADMIN, EMPLOYEE, STAGER, GUEST}
+
     private Integer idRef;
     private String name;
     private String lastName;
-    private String role;
+    private ROLES role;
     private String userName;
     private String password;
 
@@ -25,11 +28,11 @@ public class User implements Serializable {
 
     public void setLastName(String lastName) { this.lastName = lastName;}
 
-    public String getRole() { return role;}
+    public ROLES getRole() { return role;}
 
-    public void setRole(String role) { this.role = role;}
-
-    public String getUserName() { return userName;}
+    public void setRole(ROLES type) {
+        this.role = role;
+    }
 
     public void setUserName(String userName) { this.userName = userName;}
 
@@ -37,3 +40,10 @@ public class User implements Serializable {
 
     public void setPassword(String password) { this.password = password;}
 }
+
+
+
+
+
+
+
