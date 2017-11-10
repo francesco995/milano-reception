@@ -8,7 +8,7 @@ public class User implements Serializable {
     public enum ROLES {
         ADMIN, EMPLOYEE, STAGER, GUEST}
 
-    private Integer idRef;
+    private String idRef;
     private String name;
     private String lastName;
     private ROLES role;
@@ -16,9 +16,9 @@ public class User implements Serializable {
     private String password;
 
 
-    public Integer getIdRef() { return idRef;}
+    public String getIdRef() { return idRef;}
 
-    public void setIdRef(Integer idRef) {this.idRef = idRef;}
+    public void setIdRef(String idRef) {this.idRef = idRef;}
 
     public String getName() { return name;}
 

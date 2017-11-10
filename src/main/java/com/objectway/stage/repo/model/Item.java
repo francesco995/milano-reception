@@ -4,16 +4,16 @@ import java.io.Serializable;
 
 public class Item implements Serializable {
 
-    private Integer idRef;
+    private String idRef;
     private String name;
     private String description;
     private Float price;
     private Integer amount;
 
 
-    public Integer getIdRef() { return idRef;}
+    public String getIdRef() { return idRef;}
 
-    public void setIdRef(Integer idRef) {this.idRef = idRef;}
+    public void setIdRef(String idRef) {this.idRef = idRef;}
 
     public String getName() { return name;}
 
