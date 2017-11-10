@@ -13,13 +13,9 @@
 	<context:component-scan base-package="com.objectway.stage" />
 
     <mvc:annotation-driven /> <mvc:default-servlet-handler />
-	<!--<mvc:resources mapping="/resources/**" location="/resources/" />-->
 
 	<context:property-placeholder location="classpath:/spring-config/application.properties"/>
 
-	<!--<bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">-->
-		<!--<property name="locations" value="classpath:/spring-config/application.properties"/>-->
-	<!--</bean>-->
 
 	<bean id="localeResolver"
 		class="org.springframework.web.servlet.i18n.SessionLocaleResolver">
@@ -68,15 +64,6 @@
 	</bean>
 
 
-
-	<!--<bean id="handlerMapping"-->
-		<!--class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">-->
-		<!--<property name="mappings" ref="mappingsSource" />-->
-	<!--</bean>-->
-
-	<!--<util:properties id="mappingsSource"-->
-		<!--location="classpath:/spring-config/mappings.properties" />-->
-
 	<bean id="messageSource"
 		class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
 		<property name="basenames">
@@ -86,23 +73,6 @@
 			</list>
 		</property>
 	</bean>
-
-
-
-
-
-
-
-	<!--<bean id="customersController" class="com.objectway.stage.controller.CustomersController">-->
-		<!--<property name="importer" ref="importer" />-->
-	<!--</bean>-->
-
-	<!--<bean id="addCustomerController" class="com.objectway.stage.controller.AddCustomerController">-->
-		<!--<property name="customersImporter" ref="importer" />-->
-		<!--<property name="formView" value="customerFormTiles"/>-->
-		<!--<property name="successView" value="customersTiles"/>-->
-        <!--<property name="validator" ref="customerValidator" />-->
-	<!--</bean>-->
 
 
 </beans>
